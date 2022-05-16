@@ -1,0 +1,144 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4{
+  font-family: 'Montserrat', sans-serif;
+}
+.title-header{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* Title Picture */
+.titlepic{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 15%;
+}
+
+/* Features */
+.fa-solid{
+  padding: 0 auto;
+  color: #ef8172;
+  font-size: 4rem;
+
+}
+.fa-solid:hover{
+  color: #ff4c68;
+}
+.ft{
+padding: 0 3%;
+}
+#features{
+  padding: 7% 0%;
+}
+.features-h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item-active{
+  padding: 7% 15%;
+}
+.testimonial-h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.pricing-h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.pricing-h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+/* CTA */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+.cta-heading{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+  padding: 7% 15%;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  #title{
+  }
+  .titlepic{
+    position: static;
+    transform: rotate(0);
+  }
+ }
